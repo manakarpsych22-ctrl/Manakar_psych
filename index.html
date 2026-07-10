@@ -11,7 +11,11 @@
     <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <!-- reCAPTCHA v3: Site key 6LfE8ossAAAAAA9dWmDVhYtDSEEcEs7Kn4d9-lWW — v15-fix: Bug #3 updated key -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfE8ossAAAAAA9dWmDVhYtDSEEcEs7Kn4d9-lWW"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6Ldm8oosAAAAAKyZw4j0SvtZFT53mEghwbmgOBIZ-lWW"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1119,7 +1123,7 @@
                         </div>
                         <div>
                             <h3 class="font-poppins font-semibold text-charcoal mb-1">Clinic Address</h3>
-                            <p class="font-lora text-charcoal/70">Amanora Ascent Tower, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028</p>
+                            <p class="font-lora text-charcoal/70">Ascent Avenue, 329, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028</p>
                         </div>
                     </div>
 
@@ -1166,7 +1170,7 @@
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>
-                    <a href="https://www.google.com/maps/dir//Amanora+Ascent+Tower,+GW8X%2BM4Q,+Amanora+Park+Town,+Hadapsar,+Pune,+Maharashtra+411028/@18.4781013,73.9242248,15z/" target="_blank" rel="noopener noreferrer" class="mt-3 inline-flex items-center gap-2 font-poppins text-sm font-medium text-soft-teal hover:text-teal-hover transition-colors">
+                    <a href="https://maps.app.goo.gl/VVLZ4y4R6eE99ng6A" target="_blank" rel="noopener noreferrer" class="mt-3 inline-flex items-center gap-2 font-poppins text-sm font-medium text-soft-teal hover:text-teal-hover transition-colors">
                         <i data-lucide="navigation" class="w-4 h-4"></i>
                         Get Directions
                     </a>
@@ -1664,7 +1668,7 @@
         <!-- Google Sheets Form Submission -->
     <script>
     /* v15-fix: Fire-and-forget form submission — instant 3s response */
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzPqf5NiaPRoWrxMdTcEm6byJZEGJdR0KSloNtYPICEneG9BDfMmN4TLbbMUHk4YkYy/exec';
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyDl7iW8B1ElWEfFCPcCrLVP4MrozOLfaBPBfyt1PY_GhY7fVerQVS_QT0LOs2Jt1Vj/exec'; /* TEMP: pointing to v16 test deployment — DO NOT COMMIT */
 
     document.getElementById('contactForm').addEventListener('submit', async function(e) {
         e.preventDefault();
@@ -1713,7 +1717,7 @@
                     var done = false;
                     try {
                         grecaptcha.ready(function() {
-                            grecaptcha.execute('6LfE8ossAAAAAA9dWmDVhYtDSEEcEs7Kn4d9-lWW', {action: 'bookappointment'})
+                            grecaptcha.execute('6Ldm8oosAAAAAKyZw4j0SvtZFT53mEghwbmgOBIZ-lWW', {action: 'bookappointment'})
                                 .then(function(t) { if (!done) { done = true; resolve(t); } })
                                 .catch(function()  { if (!done) { done = true; resolve(''); } });
                         });
@@ -1983,7 +1987,7 @@
             </div>
             <div>
               <h3 class="font-poppins font-semibold text-charcoal mb-1">8. Contact the Data Fiduciary</h3>
-              <p><strong>Ms. Sayli A. Kharche</strong><br>Manakar — Clinical Psychology Practice<br>Amanora Ascent Tower, Hadapsar, Pune 411028<br>Email: manakarpsych22@gmail.com | Phone: +91 97308 77626</p>
+              <p><strong>Ms. Sayli A. Kharche</strong><br>Manakar — Clinical Psychology Practice<br>Ascent Avenue, 329, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028<br>Email: manakarpsych22@gmail.com | Phone: +91 97308 77626</p>
             </div>
           </div>
         </div>
